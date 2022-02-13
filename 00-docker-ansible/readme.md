@@ -38,8 +38,8 @@ RUN pip3 install --upgrade pip; \
     ansible-galaxy collection install cisco.iosxr; \
     ansible-galaxy collection install juniper.device; \
     ansible-galaxy collection install f5networks.f5_modules; \
-    git config --global user.name "<insert your name>"; \
-    git config --global user.email "<insert your email>"; \
+    git config --global user.name "JamesMiguel"; \
+    git config --global user.email "miguelja@sheridancollege.com"; \
 
 WORKDIR /work
 ```
